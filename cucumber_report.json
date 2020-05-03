@@ -1,0 +1,142 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login smoke test with page-object model",
+    "line": 1,
+    "id": "login-smoke-test-with-page-object-model",
+    "tags": [],
+    "uri": "features\\loginFeature\\Login .feature",
+    "elements": [
+      {
+        "id": "login-smoke-test-with-page-object-model;login-with-page-object-model",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Login with page-object model",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the SF login page",
+            "match": {
+              "location": "features\\support\\steps\\loginSteps\\loginSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4726000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I login with the correct credentials",
+            "match": {
+              "location": "features\\support\\steps\\loginSteps\\loginSteps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I have access to SF",
+            "match": {
+              "location": "features\\support\\steps\\loginSteps\\loginSteps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\steps\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 473000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-smoke-test-with-page-object-model;in-correct-login-with-page-object-model",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "In-correct login with page-object model",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the SF login page",
+            "match": {
+              "location": "features\\support\\steps\\loginSteps\\loginSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3905000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I login with the wrong credentials",
+            "match": {
+              "location": "features\\support\\steps\\loginSteps\\loginSteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 886000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I see the SF login error",
+            "match": {
+              "location": "features\\support\\steps\\loginSteps\\loginSteps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\steps\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 305000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
