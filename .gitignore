@@ -1,3 +1,4 @@
 node_modules/
 config/
-cucumber_report
+cucumber_report.html
+cucumber_report.json
